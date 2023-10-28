@@ -52,7 +52,7 @@ const CardModal: React.FC<CardModalProps> = ({ cardData, handleClose }) => {
           <label>Total</label>
           <div className='cardModal-payment' >
             <label>u$s</label>
-            <label>{cardData.total.toFixed(2)}</label>
+            <label>{(cardData.total + cardData.extras).toFixed(2)}</label>
           </div>
         </div>
         {/* <div className="cardModal-data">
