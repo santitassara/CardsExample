@@ -1,0 +1,123 @@
+{
+  "servicios": [
+    {
+      "nombre": "DNS Corporativo",
+      "descripcion": "Servicio de DNS empresarial para la gestión de nombres de dominio. Proporciona resolución de nombres y mapeo de direcciones IP.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/DNSIcon.png",
+      "dominios": ["corporativo.example.com", "empresa.com", "dns.local"],
+      "hostname": "dns-server",
+      "ip": "192.168.1.10",
+      "status": "free",
+      "price":"free",
+      "extras":0,
+      "total":0
+    },
+    {
+      "nombre": "IPAM",
+      "descripcion": "Plataforma de gestión de direcciones IP. Permite la reserva, liberación y asignación de direcciones IP en la red corporativa.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/IPAM.png",
+      "dominios": ["ipam.example.com", "redes.local", "gestion-ip.com"],
+      "hostname": "ipam-server",
+      "ip": "192.168.1.20",
+      "status": "free",
+      "price":"free",
+      "extras":0,
+      "total":0
+    },
+    {
+      "nombre": "Bucket S3",
+      "descripcion": "Servicio de almacenamiento de objetos en la nube. Permite el almacenamiento, recuperación y gestión de objetos y archivos en un entorno de almacenamiento escalable.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/aws-s3-logo.png",
+      "dominios": ["s3.example.com", "almacenamiento.com", "objetos.local"],
+      "hostname": "s3-bucket",
+      "ip": "192.168.1.30",
+      "status": "free",
+      "price":"free",
+      "extras":0,
+      "total":0
+    },
+    {
+      "nombre": "RedHat Enterprise Linux",
+      "descripcion": "Distribución de Linux empresarial de Red Hat. Ofrece un sistema operativo robusto y seguro para servidores y entornos empresariales.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/RedHat.png",
+      "dominios": ["rhel.example.com", "linux.local", "empresarial.com"],
+      "hostname": "rhel-server",
+      "ip": "192.168.1.40",
+      "status": "free",
+      "price":"free",
+      "extras":0,
+      "total":0
+    },
+    {
+      "nombre": "Base de Datos",
+      "descripcion": "Servicio de gestión de bases de datos relacionales. Permite la creación, administración y mantenimiento de bases de datos para aplicaciones empresariales.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/DataBase.png",
+      "dominios": ["db.example.com", "database.local", "gestion-db.com"],
+      "hostname": "db-server",
+      "ip": "192.168.1.50",
+      "status": "free",
+      "price":"free",
+      "extras":0,
+      "total":0
+    },
+    {
+      "nombre": "Firewall",
+      "descripcion": "Servicio de configuración de reglas de firewall. Controla el tráfico de red y protege la infraestructura de amenazas externas.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/FireWall.png",
+      "dominios": ["firewall.example.com", "seguridad.com", "proteccion.local"],
+      "hostname": "firewall",
+      "ip": "192.168.1.60",
+      "status": "premium",
+      "price":"150",
+      "extras":0,
+      "total":150
+    },
+    {
+      "nombre": "Balanceador de Carga",
+      "descripcion": "Servicio de distribución de tráfico entre servidores. Mejora la disponibilidad y el rendimiento de aplicaciones distribuidas.",
+      "operaciones": [
+        "alta",
+        "baja",
+        "modificacion"
+      ],
+      "img": "./img/BalanceoDeCarga.png",
+      "dominios": ["balanceador.example.com", "carga.local", "disponibilidad.com"],
+      "hostname": "load-balancer",
+      "ip": "192.168.1.70",
+      "status": "premium",
+      "price":"70",
+      "extras":5,
+      "total":70
+    }
+  ]
+}

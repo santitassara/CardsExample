@@ -1,0 +1,17 @@
+.cardsContainer{
+
+  width: 85vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+   
+  overflow-y: scroll;
+  max-height: 90.5vh;
+  
+}
+
+@media (max-height: 601px) {
+  .cardsContainer {
+    max-height: 84.3vh; /* Ajusta según sea necesario */
+  }
+}
